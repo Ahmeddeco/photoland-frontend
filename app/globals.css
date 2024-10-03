@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mainPage {
+	@apply text-7xl font-bold capitalize flex items-center justify-center container h-screen;
+}
